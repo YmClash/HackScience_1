@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-tableau = plt.figure(figsize=(20,10))
+# tableau = plt.figure(figsize=(10,10))
 
 
 mugiwara_no_ichimi = ["Luffy ", "Zoro", "Nami", "usopp", "Sangi", "Chopper", "Robin", "Franky", "Brook", "Jimbe"]
@@ -20,11 +20,11 @@ data = pd.DataFrame(titre_colonnes)
 select_column = data["Nom"][0]
 
 print(data)
-print(select_column)
+# print(select_column)
 
-tableau(data)
+# tableau(data)
 
-tableau.show()
+# tableau.show()
 
 
 
