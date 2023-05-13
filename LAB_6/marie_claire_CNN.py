@@ -76,7 +76,7 @@ def main() :
     train_correct = 0
     train_total = 0
 
-    num_epochs = 100
+    num_epochs = 300
 
     for epoch in range(num_epochs) :
         train_loss = 0.0
