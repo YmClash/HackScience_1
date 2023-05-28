@@ -1,0 +1,15 @@
+tensorflow                    2.12.0
+torch                         2.0.0
+torchvision                   0.15.1
+pytorch
+pandas                        1.5.1
+pretty-midi                   0.2.10
+pygame                        2.1.2
+TA-Lib                        0.4.24
+keras                         2.12.0
+
+
+
+
+numpy
+matplot
