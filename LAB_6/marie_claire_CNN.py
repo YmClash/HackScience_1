@@ -76,7 +76,7 @@ def main() :
     train_correct = 0
     train_total = 0
 
-    num_epochs = 300
+    num_epochs = 10
 
     for epoch in range(num_epochs) :
         train_loss = 0.0
@@ -125,7 +125,7 @@ def main() :
 
     print(f'Test Accurancy of the model on the test images: {100 * train_correct / train_total:.2f}%')
 
-    torch.save(marie_claire.state_dict(), "Marie_Claire_model_1.pth")
+    torch.save(marie_claire.state_dict(), "Marie_Claire_model_2_10.pth")
 
     plt.figure(figsize=(12, 4))
     epochs = range(1, num_epochs + 1)
