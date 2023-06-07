@@ -125,7 +125,7 @@ def main() :
 
     print(f'Test Accurancy of the model on the test images: {100 * train_correct / train_total:.2f}%')
 
-    torch.save(marie_claire.state_dict(), "Marie_Claire_model_2_10.pth")
+    torch.save(marie_claire.state_dict(), "Marie_Claire_model_3_10.pth")
 
     plt.figure(figsize=(12, 4))
     epochs = range(1, num_epochs + 1)
