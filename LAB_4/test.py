@@ -8,3 +8,4 @@ load_dotenv()
 
 access_token  = os.getenv('FRANKI_NO_ANIKI')
 
+talib.
