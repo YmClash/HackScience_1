@@ -18,7 +18,8 @@ def ip_adresse() :
     hostname = socket.gethostname()
     # récupérer l'adresse IP associée au nom d'hôte
     ip_adresse = socket.gethostbyname(hostname)
-    print(f"Votre adresse IP est : {ip_adresse}")
+    # print(f"Votre adresse IP est : {ip_adresse}")
+    return f"Votre adresse IP est : {ip_adresse}"
 
 
 # Une fonction qui liste tout le methode d'une librarie
@@ -28,7 +29,9 @@ def method_list(*args) :  # ce *args definit que on peux entre n'inort quel argu
             print(method)
 
 
-ip_adresse()
+
+
+
 
 
 

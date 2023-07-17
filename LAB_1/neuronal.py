@@ -22,7 +22,7 @@ print()
 print()
 reponse = np.array([0.99929937])
 
-for iteration in range(100000) :
+for iteration in range(100) :
     output = 1 / (1 + exp(-(dot(training_set_inputs, synaptic_weights))))
     synaptic_weights += dot(training_set_inputs.T, (training_set_outputs - output) * output * (1 - output))
     print(output)
