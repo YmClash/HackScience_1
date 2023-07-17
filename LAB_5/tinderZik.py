@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SPOTIPY_CLIENT_ID = 'f2f5bd401a81489eb422f2ab02240018'
-SPOTIPY_CLIENT_SECRET = 'efde2f4880d44e97889c33f6fd8b7432'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 
 auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=auth_manager)
